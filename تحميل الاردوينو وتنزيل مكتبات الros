@@ -1,0 +1,19 @@
+Alternatively, you can use the following wget command to download the Arduino Software (IDE) package directly on the terminal.
+
+At the time of this writing, the current latest version is 1.8.15.
+
+cd /tmp
+wget https://downloads.arduino.cc/arduino-1.8.15-linux64.tar.xz
+
+Next, extract the downloaded archive file using the tar command as shown below.
+
+tar -xvf arduino-1.8.15-linux64.tar.xz
+
+Now move into the extracted arduino-1.8.15 directory and run the installation script as root.
+
+cd arduino-1.8.12/
+sudo ./install.sh
+
+
+ثم تنزيل المكتبات عن طريق الاردينو مرفق صور
+
